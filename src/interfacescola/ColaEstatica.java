@@ -6,7 +6,7 @@ public class ColaEstatica <T> implements ICola <T> {
 	private T primero;
 	private T ultimo;
 	
-	static final int TAM_POR_DEFECTO = 5;
+	static final int TAM_POR_DEFECTO = 4;
 	
 	public ColaEstatica() {
 		this.cola = (T[]) new Object[TAM_POR_DEFECTO];
